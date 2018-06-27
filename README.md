@@ -4,6 +4,8 @@ Corso di Informatica per il Design
 
 Il sito è fruibile primariamente all'url https://thepecca.com dov'è hostato da un Raspberry Pi tramite l'applicativo Apache2; è servito intermante sotto https con un certificato regolarmente emesso da Let's Encrypt.
 
+E' stata implementata una landing page con uno spinner in css con un link al sito vero e proprio.
+
 In questa repo sono resi disponibili sia i file di codice sia le immagini oltre a un [url alternativo](https://thepecca.github.io/Pagina-Info/) tramite il quale accedere al sito (in caso ci fossero problemi con il Raspbery).
 
 Il sito integra varie parti complesse tra cui: il banner dinamico, la nav bar superiore con menù contestuale e la gallery modulare completa di filtraggio per temi.
