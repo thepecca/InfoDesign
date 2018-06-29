@@ -12,7 +12,9 @@ $(document).ready(function() {
 
 	// Fancybox
 	$('.work-box').fancybox();
-
+	$('[data-fancybox]').fancybox({
+		protect: true
+	});
 	// Portfolio isotope filter
 	var $grid = $('.portfolio-items').isotope();
 
