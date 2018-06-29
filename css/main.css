@@ -346,7 +346,7 @@ ul li {
 	 Portfolio
 -------------------------------------------------------------------------------*/
 #portfolio {
-	padding: 60px 0;
+	padding: 20px 0;
 	background: #f6f6f6;
 }
 .categories {
@@ -356,22 +356,22 @@ ul li {
 
 ol.type li {
 	display: inline-block;
-	padding: 20px;
+	padding-top: 10px;
 	margin-left: 20px;
 }
-ol.type li a {
-	border: 1px solid #777;
-	color: #555;
+ol.type li button {
+	border: 1px solid rgba(0, 0, 0, 0.75);
+	color: #2a2a2a;
 	padding: 8px 20px;
 }
-ol.type li a.active {
-	background: #222;
-	border: 1px solid #222;
+ol.type li button.active {
+	background: #2a2a2a;
+	border: 1px solid #2a2a2a;
 	color: #fff;
 }
-ol.type li a:hover {
-	background: #222;
-	border: 1px solid #222;
+ol.type li button:hover {
+	background: #2a2a2a;
+	border: 1px solid #2a2a2a;
 	color: #fff;
 }
 .isotope-item {
@@ -478,8 +478,8 @@ ol.type li a:hover {
 	width: 94%;
 	margin: auto;
 	text-align: left;
-	padding-top: 5%;
-	padding-bottom: 7%;
+	padding-top: 4%;
+	padding-bottom: 2%;
 }
 .footer h4 {
 	font-size: 14px;
@@ -510,9 +510,4 @@ ol.type li a:hover {
 	font-size: 14px;
 	color: #000;
 	letter-spacing: 15px;
-}
-.footer .fa-heart {
-	color: #e84545;
-	font-size: 12px;
-	margin: 0 2px;
 }

@@ -2,9 +2,9 @@
 Corso di Informatica per il Design
 
 
-Il sito integra varie parti complesse tra cui: il banner dinamico, la nav bar superiore con menù contestuale e la gallery modulare completa di filtraggio per temi.
+Il sito integra varie parti complesse tra cui: il banner dinamico, la nav bar superiore con menù contestuale e la gallery modulare, costruita da zero, completa di filtraggio per temi e video embedded.
 
-Per quanto riguarda l'aspetto l'intero sito è stato costruito in modo di adattarsi alla maggior parte degli schermi, anche mobile, servendo addirittura immagini apposite per gli schermi retina. Nella gallery sono presenti anche video.
+Per quanto riguarda l'aspetto l'intero sito è stato costruito in modo di adattarsi alla maggior parte degli schermi, anche mobile, servendo addirittura immagini apposite per gli schermi retina.
 
 E' stata implementata una landing page con una animazione in css prima di accedere al sito vero e proprio.
 
@@ -19,9 +19,7 @@ Le risorse esterne utilizzate sono:
 1. JQuery (CSS & JS)
 	 1. Fancybox
 	 1. Isotope
-1. Nivo Lightbox (CSS & JS)
 1. Animate (CSS)
 1. Responsive (CSS)
-1. Smooth Scroll (JS)
 1. Modernizr (JS)
 1. Retina (JS)
