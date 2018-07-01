@@ -1,0 +1,62 @@
+#q0 {
+height:50vh;
+width:50vh;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+
+#q1{
+  background-color: Red;
+  position:absolute;
+}
+
+#q2{
+  background-color: Yellow;
+  position:absolute;
+}
+
+#q3{
+  background-color: Green;
+  position:absolute;
+}
+
+#q4{
+  background-color: Blue;
+  position:absolute;
+}
+.q{
+  height:20vh;
+  width:20vh;
+}
+.t{
+  top:0;
+}
+
+.b{
+  bottom:0;
+}
+
+.l{
+  left:0;
+}
+
+.r{
+  right:0;
+}
+
+.rotatedx {
+  animation: dx 1s linear infinite;
+}
+
+#q0:hover {
+    animation-play-state: paused;
+}
+
+@keyframes dx {
+from{transform: translate(-50%, -50%) rotate(0deg);}
+to{transform: translate(-50%, -50%) rotate(360deg);}
+
+}

@@ -1,0 +1,56 @@
+#q1{
+  background-color: Blue;
+}
+#q2{
+  background-color: Yellow;
+}
+#q3{
+  background-color: Green;
+}
+#q4{
+  background-color: Red;
+}
+
+.q{
+  height:15vh;
+  width: 15vh;
+}
+.a {
+  position: absolute;
+  top: 0;
+}
+
+.b {
+  position: absolute;
+  bottom:0;
+}
+
+.d {
+  position: absolute;
+  right: 0;
+}
+
+.s {
+  position: absolute;
+  left: 0;
+}
+.centro {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.shake {
+  animation: shake_k 5s linear infinite;
+}
+
+
+@keyframes shake_k {
+  from {left:50%;}
+  25% {left:25%;}
+  50% {left:50%;}
+  75% {left:75%;}
+  to {left:50%;}
+
+}

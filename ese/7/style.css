@@ -1,0 +1,82 @@
+#q0{
+  height:70vh;
+  width:70vh;
+  position: absolute;
+}
+
+#q1{
+  background-color: Green;
+}
+#q2{
+  background-color: Red;
+}
+#q3{
+  background-color: Blue;
+}
+#q4{
+  background-color: Yellow;
+}
+
+.q{
+  height:25vh;
+  width:25vh;
+  position: absolute;
+}
+
+.p1{
+  top:0;
+  left:0;
+}
+.p2{
+  top:0;
+  right:0;
+}
+.p3{
+  bottom:0;
+  left:0;
+}
+.p4{
+  bottom:0;
+  right:0;
+}
+
+
+.centro{
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.swap1{
+  animation: swap1 1s linear forwards;
+}
+.swap2{
+  animation: swap2 1s linear forwards;
+}
+.swap3{
+  animation: swap3 1s linear forwards;
+}
+.swap4{
+  animation: swap4 1s linear forwards;
+}
+
+@keyframes swap1 {
+  from{top:0%;left:0%; transform:translate(0%,0%);}
+  to{top:100%;left:100%; transform:translate(-100%,-100%);}
+}
+
+@keyframes swap2 {
+  from{top:0%;right:0%; transform:translate(0%,0%);}
+  to{top:100%;right:100%; transform:translate(100%,-100%);}
+}
+
+@keyframes swap3 {
+  from{bottom:0%;left:0%; transform:translate(0%,0%);}
+  to{bottom:100%;left:100%; transform:translate(-100%,100%);}
+}
+
+@keyframes swap4 {
+  from{bottom:0%;right:0%; transform:translate(0%,0%);}
+  to{bottom:100%;right:100%; transform:translate(100%,100%);}
+}

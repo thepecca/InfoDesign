@@ -1,0 +1,53 @@
+#q1 {
+height: 33vh;
+width: 33vh;
+background-color: red;
+}
+
+#q2 {
+height: 16vh;
+width: 16vh;
+background-color: yellow;
+}
+
+.centro {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top:50%;
+}
+
+.hide {
+  display: none;
+}
+
+.rant {
+animation: anti 0.5s linear forwards;
+
+}
+
+.rantinfi {
+animation: anti_infi 1s linear infinite;
+
+}
+
+.rorinfi {
+animation: orar_infi 1s linear infinite;
+
+}
+
+@keyframes anti {
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform: translate(-50%, -50%) rotate(-225deg);}
+}
+
+
+@keyframes orar_infi {
+  from{transform: translate(-50%, -50%) rotate(-225deg);}
+  to{transform: translate(-50%, -50%) rotate(135deg);}
+}
+
+@keyframes anti_infi {
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform: translate(-50%, -50%) rotate(-360deg);}
+}

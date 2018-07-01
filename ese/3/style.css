@@ -1,0 +1,69 @@
+#sun{
+  height:15vh;
+  width: 15vh;
+  background-color: Yellow;
+}
+#qb{
+  height:10vh;
+  width: 10vh;
+  background-color: Blue;
+}
+
+#pb{
+  height:60vh;
+  width: 60vh;
+}
+
+#qr{
+  height:12vh;
+  width: 12vh;
+  background-color: Red;
+}
+
+#pr{
+  height:100vh;
+  width: 100vh;
+}
+
+.c{
+  border-radius: 50%;
+}
+
+.hide{
+  display: none;
+}
+.tol{
+  transform: translate(0%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+
+.center{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+.rotatedx1 {
+  animation: dx 1s infinite linear;
+}
+
+.rotatesx1 {
+  animation: reverse dx 1s infinite linear;
+}
+
+.rotatedx2 {
+  animation: dx 2s infinite linear;
+}
+
+.rotatesx2 {
+  animation: reverse dx 2s infinite linear;
+}
+
+@keyframes dx {
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform: translate(-50%, -50%) rotate(360deg);}
+}
